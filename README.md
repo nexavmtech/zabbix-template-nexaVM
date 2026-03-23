@@ -68,9 +68,9 @@ Navigate to the Macros tab on the Host and fill in the following:
 
 {$NEXAVM.URL}: The base URL (e.g., http://192.168.1.10:8080).
 
-{$NEXAVM.AK}: Your Access Key ID.
+{$NEXAVM.user}: Your username
 
-{$NEXAVM.AS}: Your Access Key Secret (set as Secret text).
+{$NEXAVM.password}: Your password encrypted SHA 512 ( echo -n "testo" | shasum -a 512 ) 
 
 {$SNMP_COMMUNITY}: Your SNMP community string (default: public).
 
